@@ -24,7 +24,11 @@ var data = {
 
 ### Transform:
 <pre>
-var result = angularTransform(data, template);
+var result = angularTransform({
+    data: data,
+    template: template,
+    modules: ['angular-transform-msword2003']
+});
 </pre>
 
 ### Result:
