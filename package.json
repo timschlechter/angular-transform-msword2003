@@ -1,0 +1,33 @@
+{
+  "name": "angular-transform-msword2003",
+  "version": "0.0.0",
+  "description": "Directives which can be used  to transform JSON to MS Word 2003 XML",
+  "main": "gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "grunt": "~0.4.4"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.6.1",
+    "karma": "~0.12.1",
+    "karma-jasmine": "~0.1.5",
+    "requirejs": "~2.1.11",
+    "karma-requirejs": "~0.2.1",
+    "karma-phantomjs-launcher": "~0.1.2"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimSchlechter/angular-transform-msword2003.git"
+  },
+  "author": "Tim Schlechter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimSchlechter/angular-transform-msword2003/issues"
+  },
+  "banner": "/*\n * <%= pkg.name %> v<%= pkg.version %> by <%= pkg.author %>\n * <%= pkg.license.url %>\n */\n"
+}

@@ -1,0 +1,7 @@
+<document>
+	<content>
+		<at ng-repeat="section in sections">
+			<paragraph title="section.title"></paragraph>
+		</at>
+	</content>	
+</document>
