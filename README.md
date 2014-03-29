@@ -12,6 +12,7 @@ var data = {
 </pre>
 
 ### Template:
+<pre>
 &lt;document&gt;
 	&lt;content&gt;
 		&lt;at ng-repeat="section in sections"&gt;
@@ -19,6 +20,7 @@ var data = {
 		&lt;/at&gt;
 	&lt;/content&gt;	
 &lt;/document&gt;
+</pre>
 
 ### Transform:
 <pre>
