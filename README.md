@@ -50,8 +50,12 @@ var result = angularTransform({
 
 ## Run tests
 <pre>
-npm install
+npm install -g karma
+npm install -g bower
+
 bower install
+npm install 
+
 grunt build
 karma start
 </pre>
