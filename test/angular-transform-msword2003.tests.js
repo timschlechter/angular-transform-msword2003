@@ -20,7 +20,7 @@ define(
                     var result = angularTransform({
                         data: data,
                         template: template,
-                        modules: ['angular-transform-msword2003']
+                        modules: ['msword2003']
                     });
 
                     // Remove whitespace between tags                    

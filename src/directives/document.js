@@ -1,7 +1,7 @@
 (function(global, angular) {
     'use strict';
 
-    angular.module('angular-transform-msword2003').directive('document', [
+    angular.module('msword2003').directive('document', [
         'encoder',
         function(encoder) {
             return {

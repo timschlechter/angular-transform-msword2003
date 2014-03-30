@@ -9,7 +9,7 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
 
         ngtemplates: {
-            'angular-transform-msword2003': {
+            'msword2003': {
                 src: 'src/**/*.tpl.*',
                 dest: 'dist/templates.js',
                 options: {
