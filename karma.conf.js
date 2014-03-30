@@ -15,9 +15,9 @@ module.exports = function(config) {
         // list of files / patterns to load in the browser
         files: [
             { pattern: 'bower_components/angular/angular.min.js', included: true },
-            { pattern: 'bower_components/lodash/dist/lodash.min.js', included: false },
-            { pattern: 'bower_components/requirejs-text/text.js', included: false },
-            { pattern: 'bower_components/angular-transform/src/angular-transform.js', included: false },
+            { pattern: 'node_modules/lodash/lodash.js', included: false },
+            { pattern: 'node_modules/text/text.js', included: false },
+            { pattern: 'bower_components/angular-transform/dist/angular-transform.min.js', included: false },
             { pattern: 'test/**/*.tests.js', included: false },
             { pattern: 'test/**/*.tpl.xml', included: false },
             'test/test-main.js',

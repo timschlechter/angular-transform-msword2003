@@ -50,25 +50,12 @@ var result = angularTransform({
 
 ## Run tests
 <pre>
-npm install -g karma
-npm install -g bower
-
-bower install
 npm install 
-
-grunt build
-karma start
+npm install -g bower
+bower install
+npm test
 </pre>
 
 ## Dependencies
-Runtime:
 * AngularJS
 * [angular-transform](https://github.com/TimSchlechter/angular-transform)
-
-Development: 
-* Bower
-* Grunt
-* Karma
-* AngularJS
-* LoDash
-* RequireJS

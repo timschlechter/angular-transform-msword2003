@@ -16,8 +16,6 @@
   ],
   "dependencies": {
     "angular": "~1.2.15",
-    "lodash": "~2.4.1",
-    "requirejs-text": "~2.0.10",
     "angular-transform": "https://github.com/TimSchlechter/angular-transform.git"
   }
 }

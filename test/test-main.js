@@ -12,10 +12,10 @@ requirejs.config({
     baseUrl: '/base',
 
     paths: {
-        angularTransform: 'bower_components/angular-transform/src/angular-transform',
+        angularTransform: 'bower_components/angular-transform/dist/angular-transform.min',
         angular: 'bower_components/angular/angular.min',
-        lodash: 'bower_components/lodash/dist/lodash.min',
-        text: 'bower_components/requirejs-text/text'
+        lodash: 'node_modules/lodash/lodash',
+        text: 'node_modules/text/text'
     },
 
     shim: {
