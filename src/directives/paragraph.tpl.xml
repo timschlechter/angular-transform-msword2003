@@ -1,9 +1,7 @@
-<at>
-    <w:p xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0">
-        <w:pPr>
-            <w:pStyle w:val="P1" /></w:pPr>
-        <w:r>
-            <w:t>{{title}}</w:t>
-        </w:r>
-    </w:p>
-</at>
+<w:p xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0">
+    <w:pPr>
+        <w:pStyle w:val="P1" /></w:pPr>
+    <w:r>
+        <w:t>{{title}}</w:t>
+    </w:r>
+</w:p>
