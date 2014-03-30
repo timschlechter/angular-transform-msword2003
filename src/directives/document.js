@@ -2,13 +2,13 @@
     'use strict';
 
     angular.module('msword2003').directive('document', [
-        'encoder',
-        function(encoder) {
+        'atService',
+        function(atService) {
             return {
                 restrict: 'E',
                 transclude: true,
                 replace: true,
-                template: encoder.encodeTemplateUrl('angular-transform-msword2003/src/directives/document.tpl.xml')
+                template: atService.getPreparedTemplate('angular-transform-msword2003/src/directives/document.tpl.xml')
             };
         }
     ]);
