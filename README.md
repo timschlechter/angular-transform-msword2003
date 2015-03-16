@@ -1,4 +1,4 @@
-# Angular Transform MS Word 2003 plugin [![Build Status](https://travis-ci.org/TimSchlechter/angular-transform-msword2003.png?branch=master)](https://travis-ci.org/TimSchlechter/angular-transform-msword2003)
+# Angular Transform MS Word 2003 plugin [![Build Status](https://travis-ci.org/timschlechter/angular-transform-msword2003.png?branch=master)](https://travis-ci.org/TimSchlechter/angular-transform-msword2003)
 Directives which can be used  to transform JSON to MS Word 2003 XML. I'm using this project to see how usefull AngularJS is to perform data transformations using [angular-transform](https://github.com/TimSchlechter/angular-transform)
 
 ### Data:
